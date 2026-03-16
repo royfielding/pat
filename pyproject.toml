@@ -1,17 +1,46 @@
 [project]
 name = "pat"
 version = "0.1.0"
-description = ""
+description = "Personal Asset Tracker"
 authors = [
     {name = "Roy T. Fielding",email = "fielding@gbiv.com"}
 ]
 readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
+    "alembic>=1.13",
+    "pydantic>=2.0",
+    "pydantic-settings>=2.0",
+    "sqlalchemy>=2.0",
 ]
+
+[project.scripts]
+pat = "pat.cli:main"
 
 [tool.poetry]
 packages = [{include = "pat", from = "src"}]
+
+[tool.poetry.scripts]
+dev = "pat.cli:main"
+test = "pytest:console_main"
+lint = "pat._lint:run"
+migrate = "pat._migrate:run"
+
+[tool.poetry.group.dev.dependencies]
+pytest = ">=8.0"
+flake8 = ">=7.0"
+black = ">=24.0"
+mypy = ">=1.0"
+
+[tool.black]
+line-length = 88
+target-version = ["py314"]
+
+[tool.mypy]
+python_version = "3.14"
+strict = true
+warn_return_any = true
+warn_unused_configs = true
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]

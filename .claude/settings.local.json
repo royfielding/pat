@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(poetry install:*)",
+      "WebFetch(domain:api.github.com)",
+      "Bash(gh api:*)"
+    ]
+  }
+}

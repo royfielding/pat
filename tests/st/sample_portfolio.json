@@ -1,0 +1,45 @@
+{
+  "as_of": "2025-12-31",
+  "assets": [
+    {
+      "category": "cash",
+      "name": "Checking Account",
+      "amount": 15000.00,
+      "currency": "USD",
+      "note": "End of year balance"
+    },
+    {
+      "category": "cash",
+      "name": "Savings Account",
+      "amount": 50000.00,
+      "currency": "USD"
+    },
+    {
+      "category": "public_stock",
+      "name": "AAPL",
+      "description": "Apple Inc.",
+      "amount": 25000.00,
+      "currency": "USD"
+    },
+    {
+      "category": "real_estate",
+      "name": "Primary Residence",
+      "amount": 500000.00,
+      "currency": "USD",
+      "note": "Zillow estimate"
+    },
+    {
+      "category": "cars",
+      "name": "2022 Tesla Model 3",
+      "amount": 28000.00,
+      "currency": "USD"
+    },
+    {
+      "category": "instruments",
+      "name": "1965 Fender Stratocaster",
+      "amount": 35000.00,
+      "currency": "USD",
+      "note": "Appraised value"
+    }
+  ]
+}

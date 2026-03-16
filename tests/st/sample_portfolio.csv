@@ -1,0 +1,7 @@
+category,name,value_date,amount,currency,note
+cash,Checking Account,2025-12-31,15000.00,USD,End of year balance
+cash,Savings Account,2025-12-31,50000.00,USD,
+public_stock,AAPL,2025-12-31,25000.00,USD,
+real_estate,Primary Residence,2025-12-31,500000.00,USD,Zillow estimate
+cars,2022 Tesla Model 3,2025-12-31,28000.00,USD,
+instruments,1965 Fender Stratocaster,2025-12-31,35000.00,USD,Appraised value
