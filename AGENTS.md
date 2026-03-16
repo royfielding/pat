@@ -11,7 +11,7 @@ You may write test financial statements under ./tests/st/gen/
 ## Architecture Overview
 
 *   **Language**: Python 3.14+
-*   **Database**: PostgreSQL
+*   **Database**: sqlite3
 *   **Dependencies**: Handled by `poetry` (`pyproject.toml`)
 *   **Key Directories**:
     *   `./src/` - Source code
